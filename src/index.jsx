@@ -4,7 +4,7 @@ import "./styles/index.css";
 import App from "./App";
 import { createContext } from "react";
 
-export const server = "http://localhost:5000/api/v1";
+export const server = "https://margdarshan-backend.onrender.com/api/v1/";
 
 export const Context = createContext({ isAuthenticated: false ,isAuthenticatedAdmin:false});
 
